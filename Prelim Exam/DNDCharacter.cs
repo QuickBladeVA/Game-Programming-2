@@ -31,11 +31,4 @@ public class DNDCharacter : ScriptableObject
 
 
     public Moves[] moves;
-
-
-    public void Attack()
-    {
-        Debug.Log($"{name} used Tackle!");
-    }
-
 }
